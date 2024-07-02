@@ -1,14 +1,14 @@
-import disney from '../assets/images/disney.png'
-import marvel from '../assets/images/marvel.png'
-import nationalG from '../assets/images/nationalG.png'
-import pixar from '../assets/images/pixar.png'
-import start from '../assets/images/starwar.png'
+import disney from '../../assets/images/disney.png'
+import marvel from '../../assets/images/marvel.png'
+import nationalG from '../../assets/images/nationalG.png'
+import pixar from '../../assets/images/pixar.png'
+import start from '../../assets/images/starwar.png'
 
-import disneyV from '../assets/videos/disney.mp4'
-import marvelV from '../assets/videos/marvel.mp4'
-import nationalGV from '../assets/videos/national-geographic.mp4'
-import pixarV from '../assets/videos/pixar.mp4'
-import startV from '../assets/videos/star-wars.mp4'
+import disneyV from '../../assets/videos/disney.mp4'
+import marvelV from '../../assets/videos/marvel.mp4'
+import nationalGV from '../../assets/videos/national-geographic.mp4'
+import pixarV from '../../assets/videos/pixar.mp4'
+import startV from '../../assets/videos/star-wars.mp4'
 
 function ProductionHouse() {
     const productionHouseList = [

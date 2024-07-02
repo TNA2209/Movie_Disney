@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react'
-import GlobalApi from '../services/GlobalApi'
+import GlobalApi from '../../services/GlobalApi'
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 
 const IMAGE_BASE_URL = "https://image.tmdb.org/t/p/original"

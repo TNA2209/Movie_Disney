@@ -1,7 +1,7 @@
-import logo from '.././assets/images/logo.png';
+import logo from '../../assets/images/logo.png';
 import { HiHome, HiStar, HiPlus, HiDotsVertical } from "react-icons/hi";
 import { HiMagnifyingGlass, HiTv, HiPlayCircle } from "react-icons/hi2";
-import HeaderItem from './HeaderItem';
+import HeaderItem from '../home/HeaderItem';
 import { useState } from 'react';
 
 function Header() {
@@ -33,7 +33,7 @@ function Header() {
     },
   ];
   return (
-    <div className="flex items-center  justify-between p-5">
+    <div className="flex items-center  justify-between p-5 bg-[#1C1C1C]">
       <div className='flex gap-8 items-center'>
         <img src={logo} className='w-[80px] md:w-[115px] object-cover' alt="logo" />
         <div className='hidden md:flex gap-8'>
