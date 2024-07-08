@@ -6,7 +6,7 @@ function Footer() {
       <div className=" text-center">
         <img src={disney} alt="Logo" className="mx-auto w-32 h-32" />
       </div>
-      <div className="flex justify-around mx-56 mb-2">
+      <div className="flex justify-around mx-2 md:mx-56 mb-2 text-center">
         <p>Subscriber Agreement</p>
         <p>Privacy Policy</p>
         <p>Your US State Privacy Rights</p>
@@ -14,7 +14,7 @@ function Footer() {
         <p>Children's Online Privacy Policy</p>
         <p>Closed Captioning</p>
       </div>
-      <div className="flex justify-around mx-64 pb-6">
+      <div className="flex justify-around mx-2 md:mx-64 pb-6 text-center">
         <p>Interest-Based Ads</p>
         <p>Supported Devices</p>
         <p>Help</p>
