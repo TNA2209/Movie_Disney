@@ -4,18 +4,16 @@ import GenreMovieList from './components/home/GenreMovieList'
 import Header from './components/home/Header'
 import ProductionHouse from './components/home/ProductionHouse'
 import Slider from './components/home/Slider'
-import Login from './components/login/Login'
 
 function App() {
   return (
     <>
     <div className=''>
-      {/* <Header/>
+      <Header/>
       <Slider/>
       <ProductionHouse/>
       <GenreMovieList/>
-      <Footer/> */}
-      <Login/>
+      <Footer/>
     </div>
     </>
   )
